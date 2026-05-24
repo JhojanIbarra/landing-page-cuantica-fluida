@@ -5,16 +5,21 @@ name: Cuántica Fluida Design System
 
 ## Overview
 
-Landing page para "Cuántica Fluida" — libro de reprogramación cuántica dirigido a mujeres que ya trabajaron en desarrollo personal pero siguen atascadas. La página sigue una estructura de copy completo definido por el usuario.
+Landing page para "Cuántica Fluida" — libro de reprogramación cuántica dirigido a personas que ya trabajaron en desarrollo personal pero siguen bloqueadas/os. La página sigue una estructura de copy completo definido por el usuario.
 
 ## Colors
 
-- **bg**: `#FEF9F3` — Crema cálido ivory
-- **accent**: `#B8860B` — Oro oscuro (CTA principal)
-- **gold**: `#D4A853` — Oro suave (decorativo, bordes)
-- **text**: `#3D2E1E` — Marrón profundo cálido
-- **muted**: `#8B7355` — Marrón claro (subtexto)
-- **card**: `#FFFFFF` — Blanco para cards
+- **morado-profundo**: `#4B1FA3`
+- **violeta-intenso**: `#6D28D9`
+- **purpura-medio**: `#7E22CE`
+- **fucsia-vibrante**: `#E2188A`
+- **rosa-energetico**: `#F72585`
+- **rosa-suave**: `#F8BBD9`
+- **lavanda-claro**: `#E9D5FF`
+- **bg**: `#FFFDFE`
+- **text**: `#4B4B55`
+- **card**: `#FFFFFF`
+- **gradiente-principal**: `linear-gradient(135deg, #4B1FA3 0%, #7E22CE 45%, #E2188A 100%)`
 
 ## Typography
 
@@ -36,9 +41,9 @@ Landing page para "Cuántica Fluida" — libro de reprogramación cuántica diri
 
 ## Components
 
-- **CTA Button**: Gradiente dorado con sombra, hover lift
-- **Eyebrow badge**: Pill con borde dorado, texto uppercase
-- **Card**: Fondo blanco, borde sutil dorado, shadow suave
+- **CTA Button**: Gradiente morado→fucsia con sombra violeta suave, hover lift
+- **Eyebrow badge**: Pill con borde violeta/fucsia, texto uppercase
+- **Card**: Fondo blanco, borde sutil lavanda, shadow suave
 - **Accordion FAQ**: Expand/collapse con chevron rotation
 - **Testimonial**: Quote mark decorativo, avatar con iniciales
 - **Antes/Después**: Card con header divide y gradient después
@@ -46,14 +51,15 @@ Landing page para "Cuántica Fluida" — libro de reprogramación cuántica diri
 ## Accessibility
 
 - Scroll behavior smooth
-- Custom scrollbar con color dorado
-- Selection color dorado
+- Custom scrollbar con acento púrpura/fucsia
+- Selection color lavanda/fucsia suave
 - Focus states en botones
 
 ## Motion
 
 - **Scroll reveal**: Entrada suave por sección con opacidad, desplazamiento vertical y blur ligero.
-- **Microinteractions**: Cards elevan 4px en hover; CTA mantiene lift cálido; FAQ abre con transición breve.
+- **Microinteractions**: Cards elevan 4px en hover con sombras violeta/fucsia; CTA mantiene lift luminoso; FAQ abre con transición breve.
+- **Regla anti-dorado**: No usar dorados, marrones cálidos ni sombras crema en tarjetas, bordes, halos, hovers, garantía, bonos o comparativas.
 - **Reduced motion**: Todas las animaciones respetan `prefers-reduced-motion`.
 
 

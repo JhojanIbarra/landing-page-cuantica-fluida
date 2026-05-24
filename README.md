@@ -16,6 +16,6 @@ This bundle was exported from [open-codesign](https://github.com/OpenCoworkAI/op
 
 ## Notes
 
-- Generated: 2026-05-24T03:53:54.112Z
+- Generated: 2026-05-24T21:10:29.242Z
 - `index.html` is the portable rendered handoff.
 - `source/` preserves the editable source used to produce this export.
